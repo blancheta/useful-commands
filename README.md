@@ -16,5 +16,6 @@ Command + 1
 
 # Mac OS
 
-Command + Tab + Key up
-
+Go to app windows: Command + Tab + Key up
+Screenshot (all screen) Shift + Command + 3
+Screenshot (selected area) Shift + Command + 4
