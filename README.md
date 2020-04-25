@@ -12,7 +12,9 @@ alias appbifup='cd ~/projects/bifup-mobile/'
 
 # Pycharm
 
-Command + 1
+Command + 1: Go to left panel
+Control + Alt + H: Open Call Hierarchy view
+Command + B: Find usages
 
 # Mac OS
 
