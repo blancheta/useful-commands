@@ -18,7 +18,9 @@ Control + Alt + H: Open Call Hierarchy view
 
 Command + B: Find usages
 
-Ctrl + Shit + Test generate a new test for selected method
+Ctrl + Shit + Test: Generate a new test for selected method
+
+Shift + Alt + Command + T: Refactor this
 
 # Mac OS
 
