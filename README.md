@@ -22,6 +22,8 @@ Ctrl + Shit + Test: Generate a new test for selected method
 
 Shift + Alt + Command + T: Refactor this
 
+Shit + Command + Test: Go to test for the class test where the cursor is.
+
 # Mac OS
 
 Go to app windows: Command + Tab + Key up
