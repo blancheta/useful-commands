@@ -10,6 +10,10 @@ rename 's/finish-flag/finish_flag/' drawable*/finish-flag.png
 # Bash aliases
 alias appbifup='cd ~/projects/bifup-mobile/'
 
+# Git aliases
+
+
+
 # Pycharm
 
 Command + 1: Go to left panel
