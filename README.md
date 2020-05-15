@@ -34,6 +34,7 @@ Go to app windows: Command + Tab + Key up
 Screenshot (all screen) Shift + Command + 3
 Screenshot (selected area) Shift + Command + 4
 Change tab in terminal: Fn + Command + Left/Right
+Type : Shift + Alt + K
 
 # VIM
 
