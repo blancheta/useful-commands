@@ -28,6 +28,10 @@ Shift + Alt + Command + T: Refactor this
 
 Shit + Command + Test: Go to test for the class test where the cursor is.
 
+Command + K: Commit change
+
+Alt + Command + A: Add file to changes
+
 # Mac OS
 
 Go to app windows: Command + Tab + Key up
