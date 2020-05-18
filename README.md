@@ -10,6 +10,11 @@ rename 's/finish-flag/finish_flag/' drawable*/finish-flag.png
 # Bash aliases
 alias appbifup='cd ~/projects/bifup-mobile/'
 
+### To add in .bashrc for loading at startup
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
 # Git aliases
 
 
