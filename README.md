@@ -35,6 +35,8 @@ Shit + Command + Test: Go to test for the class test where the cursor is.
 
 Command + K: Commit change
 
+Shift + Command + K:  Push changes
+
 Alt + Command + A: Add file to changes
 
 # Mac OS
