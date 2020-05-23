@@ -39,6 +39,8 @@ Shift + Command + K:  Push changes
 
 Alt + Command + A: Add file to changes
 
+Alr + Command + O: Optimize imports
+
 # Mac OS
 
 Go to app windows: Command + Tab + Key up
