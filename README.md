@@ -53,6 +53,8 @@ Change tab in terminal: Fn + Command + Left/Right
 
 Type : Shift + Alt + K
 
+Restart postgresql: brew services restart postgres
+
 # VIM
 
 Ctrl + V : Visual Block
