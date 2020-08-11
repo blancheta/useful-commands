@@ -17,7 +17,7 @@ fi
 
 # Git aliases
 
-
+git config --global alias.df diff
 
 # Pycharm
 
