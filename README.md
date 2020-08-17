@@ -58,3 +58,7 @@ Restart postgresql: brew services restart postgres
 # VIM
 
 Ctrl + V : Visual Block
+
+# Shell
+
+grep -rnw '/path/to/somewhere/' -e 'pattern': Find string in files
