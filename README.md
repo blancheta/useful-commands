@@ -62,3 +62,4 @@ Ctrl + V : Visual Block
 # Shell
 
 grep -rnw '/path/to/somewhere/' -e 'pattern': Find string in files
+printf '.idea\n__pycache__\nvenv\' > .gitignore
