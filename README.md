@@ -63,3 +63,6 @@ Ctrl + V : Visual Block
 
 grep -rnw '/path/to/somewhere/' -e 'pattern': Find string in files
 printf '.idea\n__pycache__/*.pyc\n*/__pycache__/*.pyc\n/venv/*\ndb.sqlite3' > .gitignore
+
+pg_ctl -D /usr/local/var/postgres start
+pg_ctl -D /usr/local/var/postgres stop
