@@ -59,6 +59,8 @@ Restart postgresql: brew services restart postgres
 
 Ctrl + V : Visual Block
 
+V + SHIFT + > OR < to indent/unindent code
+
 # Shell
 
 grep -rnw '/path/to/somewhere/' -e 'pattern': Find string in files
