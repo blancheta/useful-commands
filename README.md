@@ -1,3 +1,9 @@
+# Tools
+
+```
+pip install ipython
+```
+
 # useful-shortcuts
 Ctrl + Shift + T : reopen tabs closed in history
 
