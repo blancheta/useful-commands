@@ -78,3 +78,7 @@ pg_ctl -D /usr/local/var/postgres stop
 # Django
 
 Export DB to file: ./manage.py dumpdata --exclude contenttypes > dump_02_11_2020.json
+
+# PostgreSQL
+
+ GRANT ALL PRIVILEGES ON DATABASE pickmylaptop TO admin;
