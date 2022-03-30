@@ -61,6 +61,8 @@ Type : Shift + Alt + K
 
 Restart postgresql: brew services restart postgres
 
+sudo  grep CRON /var/log/syslog
+
 # VIM
 
 Ctrl + V : Visual Block
