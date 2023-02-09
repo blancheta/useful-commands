@@ -84,3 +84,6 @@ Export DB to file: ./manage.py dumpdata --exclude contenttypes > dump_02_11_2020
 # PostgreSQL
 
  GRANT ALL PRIVILEGES ON DATABASE pickmylaptop TO admin;
+ 
+ # Kill process on port
+ kill -9 $(lsof -ti:8000)
