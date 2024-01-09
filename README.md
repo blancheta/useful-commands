@@ -72,6 +72,7 @@ V + SHIFT + > OR < to indent/unindent code
 # Shell
 
 grep -rnw '/path/to/somewhere/' -e 'pattern': Find string in files
+du -cha --max-depth=1 /var/lib | grep -E "M|G Find what is taking up in a folder
 printf '.idea\n__pycache__/*.pyc\n*/__pycache__/*.pyc\n/venv/*\ndb.sqlite3' > .gitignore
 
 pg_ctl -D /usr/local/var/postgres start
