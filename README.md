@@ -78,6 +78,8 @@ printf '.idea\n__pycache__/*.pyc\n*/__pycache__/*.pyc\n/venv/*\ndb.sqlite3' > .g
 pg_ctl -D /usr/local/var/postgres start
 pg_ctl -D /usr/local/var/postgres stop
 
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+
 # Django
 
 Export DB to file: ./manage.py dumpdata --exclude contenttypes > dump_02_11_2020.json
