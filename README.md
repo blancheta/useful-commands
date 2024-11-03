@@ -90,3 +90,16 @@ Export DB to file: ./manage.py dumpdata --exclude contenttypes > dump_02_11_2020
  
  # Kill process on port
  kill -9 $(lsof -ti:8000)
+
+# Wordpress
+
+Permissions
+```
+chmod a+w wp-content/uploads
+chmod a+w wp-content/
+chmod a+w wp-content/plugins/
+chmod a+w wp-content/themes/
+chmod a+w wp-content/upgrade/
+chmod a+w wp-content/upgrade-temp-backup/
+sudo chown -R www-data:www-data wordpress
+```
