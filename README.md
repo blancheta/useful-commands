@@ -103,3 +103,9 @@ chmod a+w wp-content/upgrade/
 chmod a+w wp-content/upgrade-temp-backup/
 sudo chown -R www-data:www-data wordpress
 ```
+
+# Docker
+```
+docker build . --tag backend --no-cache
+docker run -it -p 80:8080 --name app-backend backend
+```
