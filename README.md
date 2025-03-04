@@ -57,6 +57,8 @@ Screenshot (selected area) Shift + Command + 4
 
 Change tab in terminal: Fn + Command + Left/Right
 
+mdfind "youtube" | grep '\.py$'
+
 Type : Shift + Alt + K
 
 Restart postgresql: brew services restart postgres
