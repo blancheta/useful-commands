@@ -115,3 +115,12 @@ sudo chown -R www-data:www-data wordpress
 docker build . --tag backend --no-cache
 docker run -it -p 80:8080 --name app-backend backend
 ```
+
+SHELL
+
+```
+files=()
+for file in "${files[@]}"; do
+  ffmpeg -i "old_audio/$file" "audio/${file%.wav}.ogg"
+done
+```
