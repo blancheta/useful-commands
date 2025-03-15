@@ -47,6 +47,10 @@ Alt + Command + A: Add file to changes
 
 Alr + Command + O: Optimize imports
 
+# AWS
+
+aws s3 sync s3://memshumedia/audio/ . --size-only
+
 # Mac OS
 
 Go to app windows: Command + Tab + Key up
