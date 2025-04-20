@@ -52,6 +52,7 @@ Alr + Command + O: Optimize imports
 aws s3 sync s3://memshumedia/audio/ . --size-only
 
 # Mac OS
+brew services info nginx
 
 Go to app windows: Command + Tab + Key up
 
