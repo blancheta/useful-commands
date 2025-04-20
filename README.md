@@ -100,6 +100,13 @@ Export DB to file: ./manage.py dumpdata --exclude contenttypes > dump_02_11_2020
 
 # Wordpress
 
+Installation
+```
+CREATE DATABASE db;
+CREATE USER "user"@"host" IDENTIFIED BY "password";
+GRANT ALL PRIVILEGES ON db.* TO "user"@"host";
+```
+
 Permissions
 ```
 chmod a+w wp-content/uploads
