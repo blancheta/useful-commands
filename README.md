@@ -102,9 +102,11 @@ Export DB to file: ./manage.py dumpdata --exclude contenttypes > dump_02_11_2020
 
 Installation
 ```
+mysql_installation
 CREATE DATABASE db;
 CREATE USER "user"@"host" IDENTIFIED BY "password";
 GRANT ALL PRIVILEGES ON db.* TO "user"@"host";
+nano /opt/homebrew/etc/php/8.4/php-fpm.d/www.conf
 ```
 
 Permissions
