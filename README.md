@@ -137,4 +137,5 @@ for file in "${files[@]}"; do
 done
 
 netstat -tupn | grep -E ":(22|80|8000) .*"
+sudo iptables -A INPUT -p tcp --dport 22 -s ip -j DROP
 ```
