@@ -135,4 +135,6 @@ files=()
 for file in "${files[@]}"; do
   ffmpeg -i "old_audio/$file" "audio/${file%.wav}.ogg"
 done
+
+netstat -tupn | grep -E ":(22|80|8000) .*"
 ```
