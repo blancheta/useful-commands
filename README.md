@@ -1,5 +1,6 @@
 # React native
 ```
+export ANDROID_HOME=$HOME/Library/Android/sdk
 npx expo prebuild --skip-dependency-update ios
 ```
 
@@ -146,7 +147,3 @@ sudo iptables -A INPUT -p tcp --dport 22 -s ip -j DROP
 
 nc -zv localhost 8000
 ```
-
-/* React Native */
-```export ANDROID_HOME=$HOME/Library/Android/sdk```
-
