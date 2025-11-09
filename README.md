@@ -1,3 +1,8 @@
+# React native
+```
+npx expo prebuild --skip-dependency-update ios
+```
+
 # Tools
 
 ```
