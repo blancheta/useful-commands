@@ -2,6 +2,8 @@
 ```
 export ANDROID_HOME=$HOME/Library/Android/sdk
 npx expo prebuild --skip-dependency-update ios
+./gradlew assembleDebug
+adb install app/build/outputs/apk/debug/app-debug.apk.
 ```
 
 # Tools
