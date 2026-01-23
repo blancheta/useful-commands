@@ -148,4 +148,6 @@ netstat -tupn | grep -E ":(22|80|8000) .*"
 sudo iptables -A INPUT -p tcp --dport 22 -s ip -j DROP
 
 nc -zv localhost 8000
+
+du -sh * | sort -rh
 ```
