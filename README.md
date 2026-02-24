@@ -128,6 +128,8 @@ chmod a+w wp-content/themes/
 chmod a+w wp-content/upgrade/
 chmod a+w wp-content/upgrade-temp-backup/
 sudo chown -R www-data:www-data wordpress
+find wp-content -type f -exec chmod 644 {} \;
+find wp-content -type d -exec chmod 755 {} \;
 ```
 
 # Docker
